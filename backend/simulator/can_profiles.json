@@ -1,0 +1,52 @@
+{
+  "Speed": {
+    "can_id": "0x100",
+    "unit": "km/h",
+    "min": 0,
+    "max": 180,
+    "start_value": 0,
+    "max_change_per_update": 3.0,
+    "period_seconds": 0.1,
+    "jitter_ms": 15
+  },
+  "RPM": {
+    "can_id": "0x200",
+    "unit": "rpm",
+    "min": 700,
+    "max": 6000,
+    "start_value": 700,
+    "max_change_per_update": 120.0,
+    "period_seconds": 0.1,
+    "jitter_ms": 15
+  },
+  "Steering": {
+    "can_id": "0x300",
+    "unit": "degrees",
+    "min": -450,
+    "max": 450,
+    "start_value": 0,
+    "max_change_per_update": 15.0,
+    "period_seconds": 0.2,
+    "jitter_ms": 20
+  },
+  "Brake": {
+    "can_id": "0x400",
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "start_value": 0,
+    "max_change_per_update": 10.0,
+    "period_seconds": 0.5,
+    "jitter_ms": 25
+  },
+  "Battery": {
+    "can_id": "0x500",
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "start_value": 100,
+    "max_change_per_update": 0.5,
+    "period_seconds": 2.0,
+    "jitter_ms": 50
+  }
+}
